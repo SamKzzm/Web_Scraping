@@ -5,7 +5,7 @@ URL = "https://pythonjobs.github.io/"
 page = requests.get(URL)
 soup = BeautifulSoup(page.content, "html.parser")
 
-results = soup.find("section", class_="job_list")
+results = soup.find(class_="job_list")
 
 python_jobs = soup.find_all(
   "h1", string = lambda text: "python" in text.lower()
