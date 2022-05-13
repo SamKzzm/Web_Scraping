@@ -12,7 +12,7 @@ python_jobs = soup.find_all(
 )
 
 python_job_elements = [
-    h1_element.parent for h1_element in python_jobs
+   h1_element.parent for h1_element in python_jobs
 ]
 
 for python_jobs in python_job_elements:
