@@ -27,5 +27,3 @@ for python_jobs in python_job_elements:
   print(contractType_element.text.strip())
   print(company_element.text.strip())
   print()
-
-#print(python_job_elements)
